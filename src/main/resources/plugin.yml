@@ -1,0 +1,8 @@
+name: LawerensKoth
+version: '${project.version}'
+main: net.lawerens.koth.LawerensKoth
+api-version: '1.20'
+depend: [FastAsyncWorldEdit, WorldGuard]
+commands:
+  koth:
+    description: Comando principal de Koths
